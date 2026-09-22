@@ -40,7 +40,7 @@ ul {
 
 img {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
     display: block;
@@ -59,4 +59,48 @@ img {
 
 .hero button {
     background: #3882f6;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.top {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+.images figure {
+    margin: 0;
+}
+
+.images figure img {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.images figure figcaption {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
 }
