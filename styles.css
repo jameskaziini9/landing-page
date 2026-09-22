@@ -38,8 +38,6 @@ ul {
     flex: 1;
 }
 
-
-
 img {
     width: 100%;
     max-width: 500px;
@@ -52,4 +50,9 @@ img {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
