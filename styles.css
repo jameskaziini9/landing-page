@@ -27,10 +27,29 @@ ul {
 
 .hero {
     display: flex;
-    background: #1f2937
+    background: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
 }
 
+.hero .left,
+.hero .right {
+    flex: 1;
+}
+
+
+
 img {
-    max-width: 50%;
-    height: 30%;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
