@@ -56,3 +56,7 @@ img {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero button {
+    background: #3882f6;
+}
