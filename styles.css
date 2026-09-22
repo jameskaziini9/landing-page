@@ -24,3 +24,13 @@ ul {
     display: flex;
     gap: 20px;
 }
+
+.hero {
+    display: flex;
+    background: #1f2937
+}
+
+img {
+    max-width: 50%;
+    height: 30%;
+}
