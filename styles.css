@@ -105,3 +105,31 @@ img {
     font-size: 16px;
     line-height: 1.4;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.author div {
+    font-size: 18px;
+    font-weight: 900;
+}
